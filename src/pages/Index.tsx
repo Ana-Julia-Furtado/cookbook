@@ -67,7 +67,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl text-center space-y-4">
           <div className="flex items-center justify-center gap-3">
             <ChefHat className="w-12 h-12" />
-            <h1 className="text-4xl md:text-5xl font-bold">Chef IA</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">Cook Book</h1>
           </div>
           <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto">
             Transforme os ingredientes da sua geladeira em receitas incríveis com o poder da inteligência artificial
@@ -144,13 +144,6 @@ const Index = () => {
           </section>
         )}
       </main>
-
-      {/* Footer */}
-      <footer className="bg-card border-t border-border py-6 mt-12">
-        <div className="container mx-auto max-w-6xl px-4 text-center text-sm text-muted-foreground">
-          <p>Powered by Lovable AI • Geração inteligente de receitas</p>
-        </div>
-      </footer>
     </div>
   );
 };
